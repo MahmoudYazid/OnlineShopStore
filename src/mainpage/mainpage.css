@@ -1,0 +1,265 @@
+.mainPageCss {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display:grid;
+  grid-template-rows: .1fr 1fr .1;
+
+}
+.Bar{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+
+
+}
+
+.BsCartDash{
+    color: white;
+    margin: 10px;
+    width: 2rem;
+    height: 2rem;
+    
+
+    
+    
+
+}
+.BsCartDash:hover{
+    color: green;
+    margin: 10px;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    
+
+    
+    
+
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 100%;
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    
+     
+
+
+}
+.Title{
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-right: auto;
+   
+
+
+
+}
+.Body{
+  background-color: white;
+  display: grid;
+  grid-template-columns: .3fr 1fr .3fr;
+  gap: 5px;
+}
+.sider{
+  background-color: white;
+
+
+
+}
+
+.mainContent{
+  
+  background-color: white;
+display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+   overflow: hidden;
+
+}
+
+.MoreBtm{
+  margin: 10px;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 300px;
+  height: 100px;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+ 
+}
+.MoreBtm:hover{
+  animation-name: CartAnim;
+  animation-timing-function:linear ;
+  animation-fill-mode: forwards;
+  animation-iteration-count:1;
+  animation-duration: 2s;
+  cursor: pointer;
+ 
+}
+
+.card {
+
+  margin: 10px;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 300px;
+  height: 500px;
+  flex-direction: column;
+
+  
+}
+
+.card:hover{
+
+   animation-name: CartAnim;
+  animation-timing-function:linear ;
+  animation-fill-mode: forwards;
+  animation-iteration-count:1;
+  animation-duration: 2s;
+    
+}
+.imgContainer{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.Description{
+  background-color: whitesmoke;
+   display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.bottoms{
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  color: black;
+}
+.bottoms:hover{
+  background-color:black;
+  color: white;
+  cursor: pointer;
+
+  
+}
+@keyframes CartAnim {
+  0%{
+    transform: scale(1,1)
+  }
+  100%{
+    transform: scale(1.1,1.1)
+  }
+  
+}
+.bottoms p{
+
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.Image{
+  height: 350px;
+  max-width: 100%;
+  
+  vertical-align: middle;
+}
+.linkMoreBtm{
+      margin: 10px;
+  background-color: black;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 300px;
+  
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+    
+}
+.fixedclass{
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+    background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.BsGithub{
+  color: #ffffff;
+  width: 2rem;
+  margin: 5px;
+  height: 1.5rem;
+}
+.BsGithub:hover{
+  color: green;
+  width: 2rem;
+  margin: 5px;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.MyCv{
+  color: white;
+  border-color: green;
+  border: 1px solid white;
+  padding: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ white-space: nowrap;
+ border-radius: 5px;
+   text-decoration: none;
+}
+.MyCv:hover{
+  cursor: pointer;
+  border: 1px solid green;
+  color: green;
+  text-decoration: none;
+ 
+ 
+}

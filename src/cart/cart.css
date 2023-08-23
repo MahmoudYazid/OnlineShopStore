@@ -1,0 +1,137 @@
+
+.CartMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+.MiddleScreen{
+    width: 50rem;
+    height: 35rem;
+    background-color: black;
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+.upperPart{
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-start;
+    align-content: center;
+    align-items: center;
+
+
+}
+
+.BackBtm{
+    margin-left: 5px;
+    background-color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.BackBtm:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+  
+}
+.LowerPart{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    border: 1px black solid;
+    scrollbar-width: none;
+
+}
+.LowerPart::-webkit-scrollbar {
+    display: none;
+}
+.CardInCartPage{
+    margin-left: 5px;
+    margin: 5px;
+    width: 98%;
+    
+    border-radius: 10px;
+    min-height: 150px;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.CardInCartPage:hover{
+    transform: scale(1.02,1.02);
+    cursor: pointer;
+}
+.IdentfyName{
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-right:5px solid black;
+}
+.DetailsOfProduct{
+    background-color: black;
+    color: white;
+
+    display: flex;
+
+   
+    flex-direction: column;
+    column-gap: .5;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+.IncDecBtms{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.IncDecBtms div{
+    background-color: white;
+    width: 30%;
+    height: 3rem;
+    color: black;
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    font-size: 26px;
+    align-content: center;
+    justify-content: center;
+    
+
+    
+}
+.IncDecBtms div:hover{
+    background-color: gainsboro;
+    
+
+    
+}
