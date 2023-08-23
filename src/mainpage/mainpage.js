@@ -36,9 +36,7 @@ export default function Mainpage() {
         <div className='Title'>Product Store</div>
         <div className='counter'><p>{ActiviesArr.length}</p></div>
         <BsCartDash className='BsCartDash' onClick={() => nav('/cart')}></BsCartDash>
-        <div className="linkMoreBtm" href='https://github.com/MahmoudYazid' >
-          Made by eng. Mahmoud Abuelyazid
-        </div>
+        
 
         
 
